@@ -83,7 +83,6 @@ button:hover {
   color: #333;
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 768px) {
   .app-container {
     width: 80%;
