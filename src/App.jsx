@@ -8,7 +8,7 @@ function App() {
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState(null);
 
-  const apiKey = 'f09ba23a9058b09557c5122cea65f085'; // Get your API key from a weather service provider
+  const apiKey = 'f09ba23a9058b09557c5122cea65f085'; // API key 
 
   const fetchWeather = async () => {
     try {
@@ -59,7 +59,6 @@ function App() {
           </div>
           <div className="date-time">
             <h2>{formatDate(weatherData.dt)}</h2>
-            {/* You can add time here if required */}
           </div>
         </div>
       )}
